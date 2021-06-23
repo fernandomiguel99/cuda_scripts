@@ -34,7 +34,7 @@ cp protoc.zip ~/models/research/
 cd ~/models/research
 sudo unzip protoc.zip
 ./bin/protoc object_detection/protos/*.proto --python_out=.
-echo 'export PYTHONPATH=$PYTHONPATH:/home/usuario/models/research:/home/robofei/models/research/slim' >> ~/.bashrc
+echo 'export PYTHONPATH=$PYTHONPATH:/home/robofei/models/research:/home/robofei/models/research/slim' >> ~/.bashrc
 echo 'Installing dodo_detector'
 cd ~/
 wget https://github.com/douglasrizzo/dodo_detector/archive/refs/tags/0.6.1.tar.gz
