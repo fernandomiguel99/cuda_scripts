@@ -17,4 +17,3 @@ sudo chmod +x /etc/profile.d/cuda.sh
 sudo cp cuda.conf /etc/ld.so.conf.d/cuda.conf
 sudo chmod +x /etc/profile.d/cuda.sh
 sudo ldconfig
-sudo reboot now
